@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: smplus.pages.dev
+Token: 14c891afd9ad96487dfcca5abf98bce5f7d30fd15c3138643377ce6a5567d2ae
