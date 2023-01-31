@@ -1,0 +1,47 @@
+VERSIONING="2.0.0"
+
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+FEDERATION_SERVER="https://api.stellar.org/federation"
+AUTH_SERVER="https://api.stellar.org/auth"
+TRANSFER_SERVER="https://api.stellar.org/auth"
+issuer="GDVWPEOTJOPRT433PX6LULEPML5AN6QJO4GCFVFK43IPRQ23NPQAUSDF"
+HORIZON_URL="https://horizon.stellar.org"
+
+ACCOUNTS=["GCFLUK4UK77337BRT6UGWP5UHYB73PSQ4HRACL6HJOQWH4GAKL4UX3RB",
+"GA3PSS2UCVHFTHO5SXY6MLOQWIWOGUVCSIFGOJ7FB3L6HWQJCSUHVT4I"]
+
+[DOCUMENTATION]
+
+ORG_NAME="SM Plus"
+ORG_URL="smplus.pages.dev"
+ORG_LOGO="smplus.pages.dev/images/SMPlus.png"
+ORG_DESCRIPTION="Hypermedia"
+ORG_PHYSICAL_ADDRESS="Los Angeles, CA 90067, United States"
+ORG_PHYSICAL_ADDRESS_ATTESTATION=""
+ORG_PHONE_NUMBER=""
+ORG_PHONE_NUMBER_ATTESTATION=""
+ORG_KEYBASE="smplus*keybase.io"
+
+ORG_TWITTER="https://twitter.com/smplusH"
+ORG_GITHUB="https://smpod.github.io/smplus/"
+ORG_OFFICIAL_EMAIL=""
+
+[[PRINCIPALS]]
+name="sass"
+email=""
+keybase=""
+twitter=""
+github=""
+id_photo_hash=""
+verification_photo_hash=""
+
+[[CURRENCIES]]
+code="SMPlus"
+issuer="GDVWPEOTJOPRT433PX6LULEPML5AN6QJO4GCFVFK43IPRQ23NPQAUSDF"
+display_decimals=4
+attestation_of_reserves="https://stellar.expert/explorer/public/asset/SMPlus-GDVWPEOTJOPRT433PX6LULEPML5AN6QJO4GCFVFK43IPRQ23NPQAUSDF-2"
+name="SM Plus"
+desc="Fungible base/counter cryptocurrency."
+conditions="Verified mint. Active burn policy. Issuer may mint additional tokens."
+image="smplus.pages.dev/images/SMPlus.png"
+fixed_number="1000000"
