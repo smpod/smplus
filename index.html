@@ -179,51 +179,6 @@
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 	
-				<div id="container">
-      <div id="response"></div>
-      <button id="make-request">Get famous quote</button>
-    </div>
-
-    <script>
-      // The prompt we send to OpenAI
-      const myPrompt = `Tell me a famous quote`;
-
-      // The configuration for the API request to OpenAI
-      const openAiConfig = {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${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}`
-        },
-        body: JSON.stringify({
-          model: 'text-davinci-003',
-          prompt: myPrompt,
-          temperature: 0.7,
-          max_tokens: 256,
-        })
-      }
-
-      // Here we store our reference to the button element defined in the <body>
-      const button = document.querySelector('#make-request');
-
-      /**
-       * Here we create & attach to the button the event listener and
-       * the logic of the event itself for making the request and handling the response
-       */
-
-      button.addEventListener('click', () => {
-        fetch('https://api.openai.com/v1/completions', openAiConfig)
-          .then(response => response.json())
-          .then(data => {
-            const responseDiv = document.getElementById('response');
-            responseDiv.innerText = data.choices[0].text;
-          })
-          .catch(error => {
-            console.error('Error:', error);
-          });
-      });
-    </script>
-
 				
 	<!-- Footer -->
 				
