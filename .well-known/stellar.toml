@@ -42,4 +42,4 @@ name="SM Plus"
 desc="Fungible base/counter cryptocurrency."
 conditions="Verified mint. Active burn policy. Issuer may mint additional tokens."
 image="smplus.pages.dev/images/SMPlus.png"
-fixed_number="1000000"
+fixed_number=1000000
