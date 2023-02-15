@@ -1,7 +1,6 @@
 
 NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
 FEDERATION_SERVER="https://api.stellar.org/federation"
-AUTH_SERVER="https://api.stellar.org/auth"
 TRANSFER_SERVER="https://api.stellar.org/auth"
 HORIZON_URL="https://horizon.stellar.org"
 
