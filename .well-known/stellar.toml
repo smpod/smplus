@@ -37,7 +37,6 @@ verification_photo_hash=""
 code="SMPlus"
 issuer="GDVWPEOTJOPRT433PX6LULEPML5AN6QJO4GCFVFK43IPRQ23NPQAUSDF"
 display_decimals=4
-attestation_of_reserves="https://stellar.expert/explorer/public/asset/SMPlus-GDVWPEOTJOPRT433PX6LULEPML5AN6QJO4GCFVFK43IPRQ23NPQAUSDF"
 name="SM Plus"
 desc="Fungible base/counter cryptocurrency."
 conditions="Verified mint. Active burn policy. Issuer may mint additional tokens."
